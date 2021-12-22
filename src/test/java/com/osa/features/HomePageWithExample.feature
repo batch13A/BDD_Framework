@@ -17,10 +17,10 @@ Feature: Registered user should be able to login in osa forum
     Then I verify that I am able to loggin
     And I close the browser
     Examples:
-    |         username             |password       |
-    |"invalidusername@gmail.com"   |"validPassword"|
-  	|"validusername" 							 |"invalidPass"  |
-  	|"Invaliduser"								 |"invalidPass"  |
+    |         username            |password       |
+    |"invalidusername@gmail.com"  |"validPassword"|
+  	|"validusername" 						  |"invalidPass"  |
+  	|"Invaliduser"							  |"invalidPass"  |
   	
   	
   	
