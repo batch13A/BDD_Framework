@@ -17,7 +17,7 @@ public static WebDriver openBrowser(String browser) {
 	WebDriver dr=null;
 	if(System.getProperty("os.name").toLowerCase().contains("windows")) {
 		if(browser.toLowerCase().equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\13472\\Desktop\\BDD_Final\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Md Obaidulla\\Desktop\\drivers\\windows\\chromedriver.exe");
 		    dr=new ChromeDriver();
 		}else if(browser.toLowerCase().equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\win\\geckodriver.exe");
