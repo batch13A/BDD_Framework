@@ -12,5 +12,3 @@ Feature: OSA user should be able to login in osa forum
     |"user1"      |"pass1"  |
   	|"user2" 			|"pass2"  |
   	|"user3"			|"pass3"  |
-  	
-  	

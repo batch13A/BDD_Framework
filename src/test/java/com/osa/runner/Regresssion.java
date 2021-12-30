@@ -10,7 +10,6 @@ import io.cucumber.testng.CucumberOptions;
 		tags= {"@regression"},
 		monochrome=true,
 		plugin= {"json:target/cucumber.json","pretty", "html:target/cucumber-reports"}
-	
 		)
 public class Regresssion extends AbstractTestNGCucumberTests{
 
